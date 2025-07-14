@@ -80,19 +80,17 @@ Apache Maven 3.8.6 or higher
 
 PostgreSQL 15 or higher
 
-#Output Console
 
 
-1be23314-f173-4353-b8bf-2009b86cf535.png
+## 📋 Console Menu
 
+![Console Menu](assets/menu.png)
 
-#Directory Structure
+---
 
+## 🗂️ Project Directory Structure
 
-<img width="357" height="168" alt="image" src="https://github.com/user-attachments/assets/7d016889-39dc-4f08-b615-e5c0941c86fd" />
-
-
-
+![Directory Structure](assets/structure.png)
 
 
 
