@@ -72,17 +72,15 @@ Apache Maven 3.8.6 or higher
 PostgreSQL 15 or higher
 
 
+## 📋 Console Menu
 
-📋 Console Menu
+![Console Menu](assets/menu.png)
 
-![Output](https://github.com/user-attachments/assets/3a6f2238-6a7f-4835-badd-8dd98231c228)
+---
 
+## 🗂️ Project Directory Structure
 
-
-🗂️ Project Directory Structure
-
-![Directory](https://github.com/user-attachments/assets/4a6a5371-27ba-4682-ba66-00ef9fd2caae)
-
+![Directory Structure](assets/structure.png)
 
 
 👥 Group Members
