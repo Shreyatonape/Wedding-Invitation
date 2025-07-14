@@ -37,57 +37,9 @@ Add the following dependency to your `pom.xml`:
 </dependency>
 
 
-🗄️ Database Schema
 
-#Wedding Card Table
-CREATE TABLE wedding_cards (
-    id SERIAL PRIMARY KEY,
-    groom_name VARCHAR(100) NOT NULL,
-    bride_name VARCHAR(100) NOT NULL,
-    wedding_date DATE NOT NULL,
-    wedding_time TIME NOT NULL,
-    venue VARCHAR(200) NOT NULL,
-    message TEXT
-);
+ 
 
-#Guest Table
-CREATE TABLE guests (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    invitation_sent BOOLEAN DEFAULT FALSE,
-    rsvp_status VARCHAR(20) DEFAULT 'Pending',
-    wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
-);
-
-✅ Prerequisites
-Make sure you have the following installed:
-
-Java Development Kit (JDK 17 or higher)
-
-Apache Maven 3.8.6 or higher
-
-PostgreSQL 15 or higher
-
-📋 Console Menu
-
-
-🗂️ Project Directory Structure
-
-
-👥 Group Members
-Shreya Shankar Tonape
-
-Sakshi Shivaji Khandagale
-
-Sayali Sadanand More
-
-📬 Contact
-Name: Shreya Shankar Tonape
-
-Email: shreyatonape65@gmail.com
-
-GitHub: Shreyatonape
 
 
 
