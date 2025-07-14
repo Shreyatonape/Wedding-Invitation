@@ -82,7 +82,8 @@ PostgreSQL 15 or higher
 
 #Output Console
 
-<img width="361" height="178" alt="image" src="https://github.com/user-attachments/assets/0edac672-4d5e-4382-9dc5-74a23724dc64" />
+![Uploading image.png…]()
+
 
 
 #Structure
