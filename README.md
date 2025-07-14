@@ -36,6 +36,29 @@ Add the following dependency to your `pom.xml`:
     <version>42.6.0</version>
 </dependency>
 
+🗄️ Database Schema
+
+#Wedding Card Table
+CREATE TABLE wedding_cards (
+    id SERIAL PRIMARY KEY,
+    groom_name VARCHAR(100) NOT NULL,
+    bride_name VARCHAR(100) NOT NULL,
+    wedding_date DATE NOT NULL,
+    wedding_time TIME NOT NULL,
+    venue VARCHAR(200) NOT NULL,
+    message TEXT
+);
+
+#Guest Table
+CREATE TABLE guests (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    invitation_sent BOOLEAN DEFAULT FALSE,
+    rsvp_status VARCHAR(20) DEFAULT 'Pending',
+    wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
+);
+
 
 
  
