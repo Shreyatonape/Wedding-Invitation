@@ -36,6 +36,8 @@ Add the following dependency to your `pom.xml`:
     <version>42.6.0</version>
 </dependency>
 
+
+
 🗄️ Database Schema
 
 #Wedding Card Table
