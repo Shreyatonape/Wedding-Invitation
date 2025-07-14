@@ -82,11 +82,12 @@ PostgreSQL 15 or higher
 
 #Output Console
 
-<img width="357" height="168" alt="image" src="https://github.com/user-attachments/assets/724f60c9-a15b-46bb-83d8-492a2bc57dc8" />
+
+![os](https://github.com/user-attachments/assets/3b88b3db-15af-4472-854a-8f21d60aabc6)
 
 
 
-#Structure
+#Directory Structure
 
 
 <img width="357" height="168" alt="image" src="https://github.com/user-attachments/assets/7d016889-39dc-4f08-b615-e5c0941c86fd" />
