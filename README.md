@@ -82,13 +82,14 @@ PostgreSQL 15 or higher
 
 #Output Console
 
-![Uploading image.png…]()
+<img width="357" height="168" alt="image" src="https://github.com/user-attachments/assets/724f60c9-a15b-46bb-83d8-492a2bc57dc8" />
 
 
 
 #Structure
 
-<img width="237" height="651" alt="image" src="https://github.com/user-attachments/assets/a0098352-281e-4bd0-b8aa-c3aa30cb5725" />
+![Uploading image.png…]()
+
 
 
 
