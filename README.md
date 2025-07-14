@@ -26,7 +26,7 @@ The app provides a menu-driven interface that allows users to create wedding car
 
 #Dependencies
 
-Add the following dependency to your `pom.xml`:
+Add the following dependency to your "pom.xml":
 
 ```xml
 <dependency>
