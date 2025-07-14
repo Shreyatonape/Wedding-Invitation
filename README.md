@@ -88,7 +88,10 @@ PostgreSQL 15 or higher
 
 #Structure
 
-![Uploading image.png…]()
+
+<img width="357" height="168" alt="image" src="https://github.com/user-attachments/assets/7d016889-39dc-4f08-b615-e5c0941c86fd" />
+
+
 
 
 
