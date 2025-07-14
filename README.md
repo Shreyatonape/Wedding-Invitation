@@ -83,8 +83,7 @@ PostgreSQL 15 or higher
 #Output Console
 
 
-![os](https://github.com/user-attachments/assets/3b88b3db-15af-4472-854a-8f21d60aabc6)
-
+1be23314-f173-4353-b8bf-2009b86cf535.png
 
 
 #Directory Structure
