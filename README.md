@@ -80,11 +80,14 @@ Apache Maven 3.8.6 or higher
 
 PostgreSQL 15 or higher
 
-# Project Structure
-![Structure](images/structure.png)
+#Output Console
 
-# Output Console
-![Output](images/output.png)
+<img width="361" height="178" alt="image" src="https://github.com/user-attachments/assets/0edac672-4d5e-4382-9dc5-74a23724dc64" />
+
+
+#Structure
+
+<img width="237" height="651" alt="image" src="https://github.com/user-attachments/assets/a0098352-281e-4bd0-b8aa-c3aa30cb5725" />
 
 
 
