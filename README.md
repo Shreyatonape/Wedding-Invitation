@@ -1,32 +1,33 @@
-# Wedding Invitation App
+# 💌 Wedding Invitation App
 
-The **Wedding Invitation App** is a console-based application built using **Core Java**, **JDBC**, and **PostgreSQL**, following the **Maven** project structure. It is designed to manage wedding invitation cards and guest information efficiently.
+The **Wedding Invitation App** is a console-based application built using **Core Java**, **JDBC**, and **PostgreSQL**, following the **Maven project structure**. It is designed to manage wedding invitation cards and guest information efficiently.
 
 The app provides a menu-driven interface that allows users to create wedding cards, manage guests, track RSVP status, and view reports.
 
 ---
 
- #Features
+## ✨ Features
 
 - **Create Wedding Card**: Add a new wedding invitation card with groom and bride details, wedding date, time, venue, and a special message.
 - **Manage Guests**: Add, update, or delete guest records with names and email addresses.
 - **Send Invitations**: Track to whom the invitation has been sent.
-- **RSVP Management**: Update and view RSVP status (Yes/No/Maybe) for each guest.
+- **RSVP Management**: Update and view RSVP status (Yes / No / Pending) for each guest.
 - **View Reports**: Fetch and display complete wedding card and guest list using Java Collections.
 
 ---
-  #Technologies Used
+
+## ⚙️ Technologies Used
 
 - **Core Java**: For implementing application logic and OOP concepts.
-- **JDBC (Java Database Connectivity)**: For connecting and interacting with PostgreSQL.
+- **JDBC**: For database interaction with PostgreSQL.
 - **PostgreSQL**: To store and manage card and guest data.
 - **Maven**: For dependency management and building the project.
 
 ---
 
-#Dependencies
+## 📦 Dependencies
 
-Add the following dependency to your "pom.xml":
+Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -36,16 +37,9 @@ Add the following dependency to your "pom.xml":
 </dependency>
 
 
+🗄️ Database Schema
 
-#Database Schema
-
-
-Create a PostgreSQL database and tables as follows:
-
-Wedding Card Table
-sql
-Copy
-Edit
+#Wedding Card Table
 CREATE TABLE wedding_cards (
     id SERIAL PRIMARY KEY,
     groom_name VARCHAR(100) NOT NULL,
@@ -55,10 +49,8 @@ CREATE TABLE wedding_cards (
     venue VARCHAR(200) NOT NULL,
     message TEXT
 );
-Guest Table
-sql
-Copy
-Edit
+
+#Guest Table
 CREATE TABLE guests (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -68,44 +60,39 @@ CREATE TABLE guests (
     wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
 );
 
-
-#Prerequisites
-
-
+✅ Prerequisites
 Make sure you have the following installed:
 
-Java Development Kit (JDK) 17 or higher
+Java Development Kit (JDK 17 or higher)
 
 Apache Maven 3.8.6 or higher
 
 PostgreSQL 15 or higher
 
+📋 Console Menu
 
 
-## 📋 Console Menu
-
-![Console Menu](assets/menu.png)
-
----
-
-## 🗂️ Project Directory Structure
-
-![Directory Structure](assets/structure.png)
+🗂️ Project Directory Structure
 
 
-
-#Group Members
-
+👥 Group Members
 Shreya Shankar Tonape
+
 Sakshi Shivaji Khandagale
+
 Sayali Sadanand More
 
+📬 Contact
+Name: Shreya Shankar Tonape
 
-#Contact
-
-
-Your Name: Shreya Shankar Tonape
 Email: shreyatonape65@gmail.com
+
 GitHub: Shreyatonape
 
- Enjoy using the Wedding Invitation App!
+
+
+
+
+
+
+
