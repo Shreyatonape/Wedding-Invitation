@@ -62,6 +62,46 @@ CREATE TABLE guests (
 );
 
 
+✅ Prerequisites
+Make sure you have the following installed:
+
+Java Development Kit (JDK 17 or higher)
+
+Apache Maven 3.8.6 or higher
+
+PostgreSQL 15 or higher
+
+
+
+📋 Console Menu
+
+
+🗂️ Project Directory Structure
+
+
+👥 Group Members
+Shreya Shankar Tonape
+
+Sakshi Shivaji Khandagale
+
+Sayali Sadanand More
+
+
+
+📬 Contact
+Name: Shreya Shankar Tonape
+
+Email: shreyatonape65@gmail.com
+
+GitHub: Shreyatonape
+
+
+
+🎉 Enjoy using the Wedding Invitation App!
+
+
+
+
 
  
 
