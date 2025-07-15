@@ -74,13 +74,16 @@ PostgreSQL 15 or higher
 
 ## 📋 Console Menu
 
-![Console Menu](assets/menu.png)
+
+![os](https://github.com/user-attachments/assets/6d6968f1-87ee-4813-9f5a-3f93ef1a4de3)
 
 ---
 
 ## 🗂️ Project Directory Structure
 
-![Directory Structure](assets/structure.png)
+![ds](https://github.com/user-attachments/assets/8b8b60f3-f4e0-4aa8-b412-a98202160e8a)
+
+
 
 
 👥 Group Members
