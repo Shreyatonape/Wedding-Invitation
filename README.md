@@ -60,7 +60,7 @@ CREATE TABLE guests (
     rsvp_status VARCHAR(20) DEFAULT 'Pending',
     wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
 );
-                             -----------------------------------------------
+--------------
 
 ✅ Prerequisites
 Make sure you have the following installed:
@@ -71,6 +71,7 @@ Apache Maven 3.8.6 or higher
 
 PostgreSQL 15 or higher
 
+---------------
 
 ## 📋 Console Menu
 
@@ -82,7 +83,7 @@ PostgreSQL 15 or higher
 
 
 
-
+------------
 👥 Group Members
 Shreya Shankar Tonape
 
@@ -90,7 +91,7 @@ Sakshi Shivaji Khandagale
 
 Sayali Sadanand More
 
-
+------------
 
 📬 Contact
 Name: Shreya Shankar Tonape
