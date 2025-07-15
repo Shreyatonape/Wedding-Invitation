@@ -4,7 +4,7 @@ The **Wedding Invitation App** is a console-based application built using **Core
 
 The app provides a menu-driven interface that allows users to create wedding cards, manage guests, track RSVP status, and view reports.
 
----
+--------
 
 ## ✨ Features
 
@@ -14,7 +14,7 @@ The app provides a menu-driven interface that allows users to create wedding car
 - **RSVP Management**: Update and view RSVP status (Yes / No / Pending) for each guest.
 - **View Reports**: Fetch and display complete wedding card and guest list using Java Collections.
 
----
+--------
 
 ## ⚙️ Technologies Used
 
@@ -23,7 +23,7 @@ The app provides a menu-driven interface that allows users to create wedding car
 - **PostgreSQL**: To store and manage card and guest data.
 - **Maven**: For dependency management and building the project.
 
----
+--------
 
 ## 📦 Dependencies
 
@@ -36,7 +36,7 @@ Add the following dependency to your `pom.xml`:
     <version>42.6.0</version>
 </dependency>
 
-
+--------
 
 🗄️ Database Schema
 
@@ -60,7 +60,8 @@ CREATE TABLE guests (
     rsvp_status VARCHAR(20) DEFAULT 'Pending',
     wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
 );
---------------
+
+--------
 
 ✅ Prerequisites
 Make sure you have the following installed:
@@ -71,19 +72,19 @@ Apache Maven 3.8.6 or higher
 
 PostgreSQL 15 or higher
 
----------------
+--------
 
 ## 📋 Console Menu
 
 
----
+--------
 
 ## 🗂️ Project Directory Structure
 
 "C:\Users\shrey\Downloads\Directory.png"
 
+--------
 
-------------
 👥 Group Members
 Shreya Shankar Tonape
 
