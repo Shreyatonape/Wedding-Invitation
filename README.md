@@ -60,7 +60,7 @@ CREATE TABLE guests (
     rsvp_status VARCHAR(20) DEFAULT 'Pending',
     wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
 );
-
+                             -----------------------------------------------
 
 ✅ Prerequisites
 Make sure you have the following installed:
