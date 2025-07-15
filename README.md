@@ -77,11 +77,9 @@ PostgreSQL 15 or higher
 ## 📋 Console Menu
 
 
---------
 
 ## 🗂️ Project Directory Structure
 
-"C:\Users\shrey\Downloads\Directory.png"
 
 --------
 
