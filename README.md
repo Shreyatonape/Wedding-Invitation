@@ -78,7 +78,10 @@ PostgreSQL 15 or higher
 
 
 
+
 ## 🗂️ Project Directory Structure
+
+![IMG-20250714-WA0002](https://github.com/user-attachments/assets/13e57624-8b5b-4ceb-a55a-14cafefe82df)
 
 
 --------
