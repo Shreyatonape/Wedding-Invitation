@@ -99,7 +99,7 @@ The app uses a console-based menu system that allows you to:
 
 ![IMG-20250714-WA0002](https://github.com/user-attachments/assets/4eb8e150-d23e-49f8-ae1f-ea7d9c1a6914)
 
-Output:-
+### Output Structure
 
 ![IMG-20250714-WA0001](https://github.com/user-attachments/assets/652a596f-1e06-4629-b274-1d183ab583b9)
 
@@ -127,7 +127,6 @@ Feel free to fork, contribute, or give feedback!
 
 ---
 
-Let me know if you'd like me to generate a `LICENSE`, `pom.xml`, or sample `.java` files for this project as well.
 
 
 
