@@ -1,29 +1,31 @@
+Here’s the **corrected and polished version** of your README for the **Wedding Invitation App** project:
+
+---
+
 # 💌 Wedding Invitation App
 
-The **Wedding Invitation App** is a console-based application built using **Core Java**, **JDBC**, and **PostgreSQL**, following the **Maven project structure**. It is designed to manage wedding invitation cards and guest information efficiently.
+A console-based Java application to manage wedding invitations and guest information efficiently. Built using **Core Java**, **JDBC**, and **PostgreSQL**, this project follows the **Maven** structure and offers an interactive menu-driven interface for creating wedding cards, managing guest lists, and tracking RSVP statuses.
 
-The app provides a menu-driven interface that allows users to create wedding cards, manage guests, track RSVP status, and view reports.
-
---------
+---
 
 ## ✨ Features
 
-- **Create Wedding Card**: Add a new wedding invitation card with groom and bride details, wedding date, time, venue, and a special message.
-- **Manage Guests**: Add, update, or delete guest records with names and email addresses.
-- **Send Invitations**: Track to whom the invitation has been sent.
-- **RSVP Management**: Update and view RSVP status (Yes / No / Pending) for each guest.
-- **View Reports**: Fetch and display complete wedding card and guest list using Java Collections.
+* **Create Wedding Card**: Add groom and bride details, wedding date, time, venue, and a personalized message.
+* **Manage Guests**: Add, update, or delete guest records with name and email.
+* **Send Invitations**: Track which guests have been sent invitations.
+* **RSVP Management**: Update and view RSVP status (`Yes`, `No`, `Pending`) for each guest.
+* **View Reports**: Display full wedding card details and guest list using Java Collections.
 
---------
+---
 
 ## ⚙️ Technologies Used
 
-- **Core Java**: For implementing application logic and OOP concepts.
-- **JDBC**: For database interaction with PostgreSQL.
-- **PostgreSQL**: To store and manage card and guest data.
-- **Maven**: For dependency management and building the project.
+* **Core Java** – Application logic and OOP concepts
+* **JDBC** – Interaction with the database
+* **PostgreSQL** – Persistent storage of cards and guest data
+* **Maven** – Project and dependency management
 
---------
+---
 
 ## 📦 Dependencies
 
@@ -35,12 +37,15 @@ Add the following dependency to your `pom.xml`:
     <artifactId>postgresql</artifactId>
     <version>42.6.0</version>
 </dependency>
+```
 
---------
+---
 
-🗄️ Database Schema
+## 🗄️ Database Schema
 
-#Wedding Card Table
+### 🎴 Wedding Card Table
+
+```sql
 CREATE TABLE wedding_cards (
     id SERIAL PRIMARY KEY,
     groom_name VARCHAR(100) NOT NULL,
@@ -50,8 +55,11 @@ CREATE TABLE wedding_cards (
     venue VARCHAR(200) NOT NULL,
     message TEXT
 );
+```
 
-#Guest Table
+### 👤 Guest Table
+
+```sql
 CREATE TABLE guests (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -60,51 +68,73 @@ CREATE TABLE guests (
     rsvp_status VARCHAR(20) DEFAULT 'Pending',
     wedding_card_id INT REFERENCES wedding_cards(id) ON DELETE CASCADE
 );
+```
 
---------
+---
 
-✅ Prerequisites
-Make sure you have the following installed:
+## ✅ Prerequisites
 
-Java Development Kit (JDK 17 or higher)
+Ensure the following are installed:
 
-Apache Maven 3.8.6 or higher
+* Java Development Kit (**JDK 17** or higher)
+* **Apache Maven** 3.8.6 or higher
+* **PostgreSQL** 15 or higher
 
-PostgreSQL 15 or higher
+---
 
---------
+## 🖥️ Console Menu
 
-## 📋 Console Menu
+The app uses a console-based menu system that allows you to:
 
+1. Create Wedding Card
+2. Add / View / Update / Delete Guests
+3. Send Invitations
+4. Manage RSVP Status
+5. View Reports
+6. Exit
 
-
+---
 
 ## 🗂️ Project Directory Structure
 
-![IMG-20250714-WA0002](https://github.com/user-attachments/assets/13e57624-8b5b-4ceb-a55a-14cafefe82df)
+![IMG-20250714-WA0002](https://github.com/user-attachments/assets/4eb8e150-d23e-49f8-ae1f-ea7d9c1a6914)
+
+Output:-
+
+![IMG-20250714-WA0001](https://github.com/user-attachments/assets/652a596f-1e06-4629-b274-1d183ab583b9)
 
 
---------
+---
 
-👥 Group Members
-Shreya Shankar Tonape
+## 👥 Group Members
 
-Sakshi Shivaji Khandagale
+* **Shreya Shankar Tonape**
+* **Sakshi Shivaji Khandagale**
+* **Sayali Sadanand More**
 
-Sayali Sadanand More
+---
 
-------------
+## 📬 Contact
 
-📬 Contact
-Name: Shreya Shankar Tonape
+* **Name**: Shreya Shankar Tonape
+* **Email**: [shreyatonape65@gmail.com](mailto:shreyatonape65@gmail.com)
+* **GitHub**: [Shreyatonape](https://github.com/Shreyatonape)
 
-Email: shreyatonape65@gmail.com
+---
 
-GitHub: Shreyatonape
+🎉 **Enjoy using the Wedding Invitation App!**
+Feel free to fork, contribute, or give feedback!
+
+---
+
+Let me know if you'd like me to generate a `LICENSE`, `pom.xml`, or sample `.java` files for this project as well.
 
 
 
-🎉 Enjoy using the Wedding Invitation App!!
+
+
+
+
 
 
 
